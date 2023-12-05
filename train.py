@@ -53,7 +53,11 @@ if not os.path.exists(args['pred_dir']): os.makedirs(args['pred_dir'])
 if not os.path.exists(args['chkpt_dir']): os.makedirs(args['chkpt_dir'])
 writer = SummaryWriter(args['log_dir'])
 
+#Mac only
 device = torch.device('mps' if torch.backends.mps.is_available() else 'cpu')
+
+#device = torch.device('cude' if torch.cuda.is_available() else 'cpu')
+
 
 def main():        
     
