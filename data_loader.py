@@ -19,7 +19,6 @@ MEAN_B = np.array([111.07, 114.04, 118.18])
 STD_B  = np.array([49.41,  47.01,  47.94])
 
 root = './second_dataset'
-root = './second_augmented'
 
 colormap2label = np.zeros(256 ** 3)
 for i, cm in enumerate(ST_COLORMAP):

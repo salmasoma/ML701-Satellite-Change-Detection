@@ -16,8 +16,8 @@ from utils.utils import accuracy, SCDD_eval_all, AverageMeter
 #Data and model choose
 ###############################################
 import data_loader as RS
-#from models.BiSRNet import BiSRNet as Net
-from models.SSCDl import SSCDl as Net
+from models.BiSRNet import BiSRNet as Net
+#from models.SSCDl import SSCDl as Net
 #from models.DualStreamFCN import DualStreamFCN as Net
 # from models.HRNet import HRNet as Net
 # from models.DSCDe import DSCDe as Net
