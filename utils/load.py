@@ -7,9 +7,6 @@ from PIL import Image
 from .utils import resize_and_crop, get_square, normalize, hwc_to_chw
 import cv2
 
-ZUR_COLORMAP = [[0,0,0],[255,255,255],[0,255,0],[150,80,0],[0,125,0],[150,150,255],[100,100,100],[255,255,0],[0,0,150]]
-ZUR_CLASSES  = ['road','background','grass','ground','tree','water','building','raiway','river']
-
 ZUR_COLORMAP = [[255,255,255], [0,0,255], [128,128,128],     [0,128,0],        [0,255,0],   [128,0,0], [255,0,0]]
 ZUR_CLASSES = ['No Change',    'water',   'N.v.g. surface',  'low vegetation', 'tree',      'building', 'Playground']
 
